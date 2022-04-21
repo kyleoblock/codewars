@@ -2,14 +2,13 @@
 
 function digital_root(n) {
     // ...
-    let total = n;
-    while(total > 9) {
-      total = total % 10 + 
-              Math.trunc(total % 100 / 10) + 
-              Math.trunc(total % 1000 / 100) + 
-              Math.trunc(total % 10000 / 1000) + 
-              Math.trunc(total % 100000 / 10000) + 
-              Math.trunc(total % 1000000 / 100000)
+    if(n < 10) {
+      return n;
     }
-    return total;
+    let total = 0;
+    let newStr = String(n);
+    for(let i = 0; i < newStr.length; i++) {
+      total += Number(newStr[i]);
+    }
+    return digital_root(total);
   }
