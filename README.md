@@ -1,2 +1,2 @@
-codewars 4/21
+codewars 4/22
 asdfasd
