@@ -8,3 +8,4 @@ var summation = function (num) {
     }
     return total;
   }
+  
