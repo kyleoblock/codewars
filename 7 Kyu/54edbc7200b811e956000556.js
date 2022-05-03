@@ -10,3 +10,4 @@ function countSheeps(arrayOfSheep) {
     })
     return total;
   }
+  
