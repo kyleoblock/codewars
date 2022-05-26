@@ -1,1 +1,1 @@
-codewars 5/24
+codewars 5/25
