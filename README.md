@@ -1,1 +1,1 @@
-codewars 6/7
+codewars 6/8
