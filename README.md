@@ -1,1 +1,1 @@
-codewars 6/9
+codewars 6/10
